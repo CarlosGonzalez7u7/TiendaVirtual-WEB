@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Tienda online con productos electrónicos, artículos para el hogar, juguetes y más">
+        <title>ALL IN ONE SHOP - Tu tienda online</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <h1>ALL IN ONE SHOP</h1>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar productos...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="nav-icons">
+                    <a href="#" class="icon"><i class="fas fa-user"></i></a>
+                    <a href="#" class="icon cart-icon"><i
+                            class="fas fa-shopping-cart"></i><span
+                            class="cart-count">0</span></a>
+                </div>
+                <nav class="main-nav">
+                    <button class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html" class="active">Inicio</a></li>
+                        <li><a href="electronica.html">Uso Diario</a></li>
+                        <li><a href="products.html">Diversión</a></li>
+                        <li><a href="products.html">Herramientas</a></li>
+                        <li><a href="products.html">Audio</a></li>
+                        <li><a href="products.html">Accesorios</a></li>
+                        <li><a href="ofertas.html">Ofertas</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Banner -->
+            <section class="hero-banner">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2>Ofertas de Semana Santa</h2>
+                        <p>Hasta 40% de descuento en productos seleccionados</p>
+                        <a href="ofertas.html" class="btn btn-primary">Ver
+                            Ofertas</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Categories -->
+            <section class="featured-categories">
+                <div class="container">
+                    <h2 class="section-title">Categorías Destacadas</h2>
+                    <div class="categories-grid">
+                        <a href="products.html" class="category-card">
+                            <div class="category-img">
+                                <img src="img/electronics.jpg"
+                                    alt="Electrónica">
+                            </div>
+                            <h3>Electrónica</h3>
+                        </a>
+                        <a href="products.html" class="category-card">
+                            <div class="category-img">
+                                <img src="img/home.jpg" alt="Hogar">
+                            </div>
+                            <h3>Hogar</h3>
+                        </a>
+                        <a href="products.html" class="category-card">
+                            <div class="category-img">
+                                <img src="img/toys.jpg" alt="Juguetes">
+                            </div>
+                            <h3>Juguetes</h3>
+                        </a>
+                        <a href="products.html" class="category-card">
+                            <div class="category-img">
+                                <img src="img/tech.jpg" alt="Tecnología">
+                            </div>
+                            <h3>Tecnología</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Products -->
+            <section class="featured-products">
+                <div class="container">
+                    <h2 class="section-title">Productos Destacados</h2>
+                    <div class="products-carousel"
+                        id="featuredProductsCarousel">
+                        <div class="product-card">
+                            <div class="product-badge">Nuevo</div>
+                            <div class="product-img">
+                                <img src="img/product1.jpg"
+                                    alt="Game TV Stick 8K Ultra HD Set-Top-Box">
+                            </div>
+                            <div class="product-info">
+                                <h3>Game TV Stick 8K Ultra HD Set-Top-Box</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <span>(120)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">$1,399.99</span>
+                                    <span class="old-price">$2,000.00</span>
+                                </div>
+                                <a href="product-detail.html"
+                                    class="btn btn-secondary">Ver Detalles</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-badge sale">Oferta</div>
+                            <div class="product-img">
+                                <img src="img/product2.jpg" alt="Smart TV 4K">
+                            </div>
+                            <div class="product-info">
+                                <h3>Smart TV 4K 55"</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(85)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">$799.99</span>
+                                    <span class="old-price">$999.99</span>
+                                </div>
+                                <a href="product-detail.html"
+                                    class="btn btn-secondary">Ver Detalles</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-img">
+                                <img src="img/product3.jpg"
+                                    alt="Auriculares Inalámbricos">
+                            </div>
+                            <div class="product-info">
+                                <h3>Auriculares Inalámbricos</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>(210)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">$129.99</span>
+                                </div>
+                                <a href="product-detail.html"
+                                    class="btn btn-secondary">Ver Detalles</a>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-badge">Nuevo</div>
+                            <div class="product-img">
+                                <img src="img/product4.jpg" alt="Tablet Pro">
+                            </div>
+                            <div class="product-info">
+                                <h3>Tablet Pro 10.5"</h3>
+                                <div class="product-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>(45)</span>
+                                </div>
+                                <div class="product-price">
+                                    <span class="current-price">$349.99</span>
+                                    <span class="old-price">$399.99</span>
+                                </div>
+                                <a href="product-detail.html"
+                                    class="btn btn-secondary">Ver Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button id="prevBtn" class="carousel-control"><i
+                                class="fas fa-chevron-left"></i></button>
+                        <button id="nextBtn" class="carousel-control"><i
+                                class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="testimonials">
+                <div class="container">
+                    <h2 class="section-title">Lo que dicen nuestros
+                        clientes</h2>
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p
+                                class="testimonial-text">"Excelente servicio y productos de calidad. Mi pedido llegó antes de lo esperado y en perfectas condiciones."</p>
+                            <div class="testimonial-author">
+                                <img src="img/user1.jpg" alt="María García">
+                                <div>
+                                    <h4>María García</h4>
+                                    <p>Cliente desde 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p
+                                class="testimonial-text">"La mejor tienda online que he encontrado. Tienen una gran variedad de productos y los precios son muy competitivos."</p>
+                            <div class="testimonial-author">
+                                <img src="img/user2.jpg" alt="Carlos Rodríguez">
+                                <div>
+                                    <h4>Carlos Rodríguez</h4>
+                                    <p>Cliente desde 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p
+                                class="testimonial-text">"Atención al cliente excepcional. Tuve un problema con mi pedido y lo resolvieron rápidamente."</p>
+                            <div class="testimonial-author">
+                                <img src="img/user3.jpg" alt="Laura Martínez">
+                                <div>
+                                    <h4>Laura Martínez</h4>
+                                    <p>Cliente desde 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="newsletter">
+                <div class="container">
+                    <div class="newsletter-content">
+                        <h2>Suscríbete a nuestro boletín</h2>
+                        <p>Recibe las últimas ofertas y novedades directamente
+                            en tu correo.</p>
+                        <form class="newsletter-form">
+                            <input type="email"
+                                placeholder="Tu correo electrónico" required>
+                            <button type="submit"
+                                class="btn btn-primary">Suscribirse</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h3>ALL IN ONE SHOP</h3>
+                        <p>Tu tienda online de confianza para productos
+                            electrónicos, artículos para el hogar, juguetes y
+                            más.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Enlaces Rápidos</h4>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="products.html">Productos</a></li>
+                            <li><a href="ofertas.html">Ofertas</a></li>
+                            <li><a href="#">Sobre Nosotros</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Categorías</h4>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="electronica.html">Uso Diario</a></li>
+                            <li><a href="#">Diversión</a></li>
+                            <li><a href="#">Herramientas</a></li>
+                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="ofertas.html">Ofertas</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contacto</h4>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-map-marker-alt"></i> Calle
+                                Principal 123, CDMX</li>
+                            <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                            <li><i class="fas fa-envelope"></i>
+                                info@ALLINONESHOP.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 ALL IN ONE SHOP. Todos los derechos
+                        reservados.</p>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-amex"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

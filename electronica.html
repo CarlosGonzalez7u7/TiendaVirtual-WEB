@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ALL IN ONE SHOP - Productos Electrónicos</title>
+        <meta name="description"
+            content="Explora nuestra amplia selección de productos electrónicos: Alexa, patines eléctricos, videojuegos, TV Box y más">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="css/products.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="logo">
+                        <h1>ElectroTech</h1>
+                    </div>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Buscar productos...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="header-actions">
+                        <a href="#" class="header-icon"><i
+                                class="fas fa-user"></i></a>
+                        <a href="#" class="header-icon cart-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count">0</span>
+                        </a>
+                    </div>
+                </div>
+                <nav class="main-nav">
+                    <button class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul id="navMenu" class="nav-menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="electronica.html" class="active">Uso
+                                Diario</a></li>
+                        <li><a href="#">Diversión</a></li>
+                        <li><a href="#">Herramientas</a></li>
+                        <li><a href="#">Audio</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="ofertas.html">Ofertas</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero-section">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2>Productos Electrónicos</h2>
+                        <p>Descubre la mejor selección de tecnología para tu
+                            hogar y estilo de vida</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="products-section">
+                <div class="container">
+                    <div class="products-header">
+                        <div class="products-title">
+                            <h2>Todos los Productos</h2>
+                            <span class="products-count">24 productos</span>
+                        </div>
+                        <div class="products-filters">
+                            <div class="filter-group">
+                                <label for="category-filter">Categoría:</label>
+                                <select id="category-filter">
+                                    <option value="all">Todos</option>
+                                    <option value="smart-speakers">Altavoces
+                                        Inteligentes</option>
+                                    <option value="mobility">Movilidad
+                                        Eléctrica</option>
+                                    <option value="gaming">Videojuegos</option>
+                                    <option value="tv">TV y Accesorios</option>
+                                    <option value="audio">Audio</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="sort-by">Ordenar por:</label>
+                                <select id="sort-by">
+                                    <option
+                                        value="relevance">Relevancia</option>
+                                    <option value="price-low">Precio: Menor a
+                                        Mayor</option>
+                                    <option value="price-high">Precio: Mayor a
+                                        Menor</option>
+                                    <option value="rating">Valoración</option>
+                                    <option value="newest">Más
+                                        Recientes</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-grid" id="productsGrid">
+                        <!-- Los productos se cargarán dinámicamente con JavaScript -->
+                    </div>
+
+                    <!-- Modal de Detalles del Producto -->
+                    <div class="product-modal" id="productModal">
+                        <div class="modal-content">
+                            <button class="modal-close" id="modalClose"><i
+                                    class="fas fa-times"></i></button>
+                            <div class="modal-body">
+                                <!-- El contenido se cargará dinámicamente con JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pagination">
+                        <button class="page-btn active">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn">3</button>
+                        <button class="page-btn next"><i
+                                class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h3>ALL IN ONE SHOP</h3>
+                        <p>Tu tienda online de confianza para productos
+                            electrónicos, artículos para el hogar, juguetes y
+                            más.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Enlaces Rápidos</h4>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="products.html">Productos</a></li>
+                            <li><a href="ofertas.html">Ofertas</a></li>
+                            <li><a href="#">Sobre Nosotros</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Categorías</h4>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="electronica.html">Uso Diario</a></li>
+                            <li><a href="#">Diversión</a></li>
+                            <li><a href="#">Herramientas</a></li>
+                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="ofertas.html">Ofertas</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contacto</h4>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-map-marker-alt"></i> Calle
+                                Principal 123, CDMX</li>
+                            <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                            <li><i class="fas fa-envelope"></i>
+                                info@ALLINONESHOP.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 ALL IN ONE SHOP. Todos los derechos
+                        reservados.</p>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-amex"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/products.js"></script>
+    </body>
+</html>

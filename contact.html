@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description"
+            content="Contacta con TechStore para cualquier consulta o soporte">
+        <title>Contacto - ALL IN ONE SHOP</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <h1>TechStore</h1>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar productos...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="nav-icons">
+                    <a href="#" class="icon"><i class="fas fa-user"></i></a>
+                    <a href="#" class="icon cart-icon"><i
+                            class="fas fa-shopping-cart"></i><span
+                            class="cart-count">0</span></a>
+                </div>
+                <nav class="main-nav">
+                    <button class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="electronica.html">Uso Diario</a></li>
+                        <li><a href="#">Diversión</a></li>
+                        <li><a href="#">Herramientas</a></li>
+                        <li><a href="#">Audio</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="ofertas.html">Ofertas</a></li>
+                        <li><a href="contact.html"
+                                class="active">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- Breadcrumb -->
+            <div class="breadcrumb">
+                <div class="container">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li>Contacto</li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="contact-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h1>Contacto</h1>
+                        <p>Estamos aquí para ayudarte. Ponte en contacto con
+                            nosotros para cualquier consulta, duda o
+                            sugerencia.</p>
+                    </div>
+
+                    <div class="contact-grid">
+                        <div class="contact-info-container">
+                            <div class="contact-info">
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h3>Dirección</h3>
+                                        <p>Calle Principal 123<br>CDMX, CP
+                                            12345<br>México</p>
+                                    </div>
+                                </div>
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h3>Teléfono</h3>
+                                        <p>+123 456 7890<br>+123 456 7891</p>
+                                    </div>
+                                </div>
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h3>Email</h3>
+                                        <p>info@ALLINONESHOP.com<br>soporte@ALLINONESHOP.com</p>
+                                    </div>
+                                </div>
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h3>Horario</h3>
+                                        <p>Lunes - Viernes: 9:00 -
+                                            20:00<br>Sábado: 10:00 -
+                                            18:00<br>Domingo: Cerrado</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="social-contact">
+                                <h3>Síguenos</h3>
+                                <div class="social-icons">
+                                    <a href="#" class="social-icon"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social-icon"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a href="#" class="social-icon"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a href="#" class="social-icon"><i
+                                            class="fab fa-youtube"></i></a>
+                                    <a href="#" class="social-icon"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-form-container">
+                            <h2>Envíanos un mensaje</h2>
+                            <form class="contact-form" id="contactForm">
+                                <div class="form-group">
+                                    <label for="name">Nombre completo</label>
+                                    <input type="text" id="name" name="name"
+                                        placeholder="Tu nombre" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email"
+                                        placeholder="Tu email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Teléfono</label>
+                                    <input type="tel" id="phone" name="phone"
+                                        placeholder="Tu teléfono">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Asunto</label>
+                                    <input type="text" id="subject"
+                                        name="subject"
+                                        placeholder="Asunto de tu mensaje"
+                                        required>
+                                </div>
+                                <div class="form-group full-width">
+                                    <label for="message">Mensaje</label>
+                                    <textarea id="message" name="message"
+                                        rows="6"
+                                        placeholder="Escribe tu mensaje aquí..."
+                                        required></textarea>
+                                </div>
+                                <div class="form-group full-width">
+                                    <div class="checkbox-group">
+                                        <input type="checkbox" id="privacy"
+                                            name="privacy" required>
+                                        <label for="privacy">He leído y acepto
+                                            la <a href="#">política de
+                                                privacidad</a></label>
+                                    </div>
+                                </div>
+                                <div class="form-group full-width">
+                                    <button type="submit"
+                                        class="btn btn-primary">Enviar
+                                        mensaje</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="map-section">
+                <div class="container">
+                    <h2>Encuéntranos</h2>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-0.1278!3d51.5074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDMwJzI2LjYiTiAwwrAwNyc0MC4xIlc!5e0!3m2!1sen!2sus!4v1623412345678!5m2!1sen!2sus"
+                            width="100%" height="450" style="border:0;"
+                            allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faq-section">
+                <div class="container">
+                    <h2>Preguntas Frecuentes</h2>
+                    <div class="faq-container">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>¿Cuál es el tiempo de entrega?</h3>
+                                <span class="faq-toggle"><i
+                                        class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Nuestro tiempo de entrega estándar es de 3-5
+                                    días hábiles para envíos nacionales. Para
+                                    envíos internacionales, el tiempo de entrega
+                                    puede variar entre 7-14 días hábiles
+                                    dependiendo del país de destino.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>¿Cómo puedo realizar un seguimiento de mi
+                                    pedido?</h3>
+                                <span class="faq-toggle"><i
+                                        class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Una vez que tu pedido haya sido enviado,
+                                    recibirás un correo electrónico con un
+                                    número de seguimiento. Puedes utilizar este
+                                    número en nuestra sección
+                                    "Seguimiento de Pedidos" o directamente en
+                                    la web de la empresa de transporte.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>¿Cuál es la política de devoluciones?</h3>
+                                <span class="faq-toggle"><i
+                                        class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Aceptamos devoluciones dentro de los 30 días
+                                    posteriores a la recepción del producto. El
+                                    artículo debe estar en su estado original,
+                                    sin usar y con todas las etiquetas y
+                                    embalajes. Para iniciar una devolución, por
+                                    favor contacta con nuestro servicio de
+                                    atención al cliente.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>¿Ofrecen garantía en sus productos?</h3>
+                                <span class="faq-toggle"><i
+                                        class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Sí, todos nuestros productos electrónicos
+                                    tienen una garantía mínima de 1 año. Algunos
+                                    productos específicos pueden tener garantías
+                                    extendidas. Los detalles de la garantía se
+                                    especifican en la página de cada
+                                    producto.</p>
+                            </div>
+                        </div>
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>¿Cuáles son los métodos de pago
+                                    aceptados?</h3>
+                                <span class="faq-toggle"><i
+                                        class="fas fa-plus"></i></span>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Aceptamos tarjetas de crédito/débito (Visa,
+                                    MasterCard, American Express), PayPal,
+                                    transferencia bancaria y pago contra
+                                    reembolso (solo para ciertos países).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h3>ALL IN ONE SHOP</h3>
+                        <p>Tu tienda online de confianza para productos
+                            electrónicos, artículos para el hogar, juguetes y
+                            más.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Enlaces Rápidos</h4>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="products.html">Productos</a></li>
+                            <li><a href="ofertas.html">Ofertas</a></li>
+                            <li><a href="#">Sobre Nosotros</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Categorías</h4>
+                        <ul>
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="electronica.html">Uso Diario</a></li>
+                            <li><a href="#">Diversión</a></li>
+                            <li><a href="#">Herramientas</a></li>
+                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="ofertas.html">Ofertas</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contacto</h4>
+                        <ul class="contact-info">
+                            <li><i class="fas fa-map-marker-alt"></i> Calle
+                                Principal 123, CDMX</li>
+                            <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                            <li><i class="fas fa-envelope"></i>
+                                info@ALLINONESHOP.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 ALL IN ONE SHOP. Todos los derechos
+                        reservados.</p>
+                    <div class="payment-methods">
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-amex"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
